@@ -7,6 +7,6 @@ def fib(num):
     else :
             return fib(num-1) +fib(num-2)
 
-num = range(21)
+num = range(20)
 for n in num:
     print(fib(n) , end=" ")
